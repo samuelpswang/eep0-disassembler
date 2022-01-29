@@ -116,7 +116,8 @@ public:
         }
         else if (assembly == "LDR" || assembly == "STR") {
             assembly += " " + this->get_ra();
-            assembly += ", [" + this->get_imm8() + "]";
+            if (this->i == "1") assembly += ", [" + this->get_imm8() + "]";
+            else assembly += ", " + this->get_rb();
             return assembly;
         }
         else {
