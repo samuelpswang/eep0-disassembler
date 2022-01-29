@@ -167,7 +167,7 @@ int main() {
     cout << "2. Binary line commands: 0b0000000000000000 or 0000000000000000" << endl;
     cout << "3. File input (reads from \"input.txt\" & writes to \"output.txt\"): input" << endl;
     cout << "4. Exit: exit" << endl;
-    cout << "5. **see existing input.txt for examples**" << endl;
+    cout << "**see existing input.txt for examples**" << endl;
     
     // Command Line 
     string user;
