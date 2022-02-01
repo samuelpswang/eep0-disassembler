@@ -13,8 +13,10 @@ Type in your machine code directly and get the assembly code. See below for exam
 ```
 > 0x33EE
 ADD R0, #238
+
 > 0b1011100001101101
 STR R2, [#109]
+
 > 0x
 Input Error: input is not valid machine code
 ```
@@ -32,5 +34,5 @@ Done: output.txt written
 3. Compile & run `./main`.
 
 ## Release
-* `Version: 1.0.1`
+* `Version: 1.0.2`
 * `Date: 2022/02/01`
