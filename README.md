@@ -2,7 +2,7 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/samuelpswang/eep0-disassembler)](https://repl.it/github/samuelpswang/eep0-disassembler)
 
-**^^^Click on the Replit badge and then click RUN in Replit!**
+**^ 1) Click Replit badge. 2) Click RUN button in Replit.**
 
 ## Intro
 Disassembler for 16-bit EEP0 CPU ([designed by Professer Clarke at Imperial EEE Department](https://www.imperial.ac.uk/people/t.clarke)) written by a lazy student during lab. 
@@ -30,3 +30,7 @@ Done: output.txt written
 1. Comment all code under `// Instructions` & `// Command Line` comments.
 2. Uncommment all code under `// For Verification Purposes Only`.
 3. Compile & run `./main`.
+
+## Release
+* `Version: 1.0.1`
+* `Date: 2022/02/01`
