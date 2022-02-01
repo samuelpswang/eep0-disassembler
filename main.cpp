@@ -167,13 +167,13 @@ int main() {
     cout << "2. Binary line commands: 0b0000000000000000 or 0000000000000000" << endl;
     cout << "3. File input (reads from \"input.txt\" & writes to \"output.txt\"): input" << endl;
     cout << "4. Exit: exit" << endl;
-    cout << "**see existing input.txt for examples**" << endl;
+    cout << "** SEE README.MD FOR DETAILS **" << endl;
     
     // Command Line 
     string user;
     while(cout << "> " && cin >> user) {
         if (user == "exit") {
-            cout << "Program exited..." << endl;
+            cout << "Program exited!" << endl;
             return 0;
         }
         else if (user == "input") {
@@ -181,7 +181,7 @@ int main() {
             ifstream ifs;
             ifs.open("input.txt");
             if (!ifs) {
-                cout << "File Not Found Error: input.txt not found" << endl;
+                cout << "File Not Found Error: input.txt not found" << endl << endl;
                 continue;
             }
             
@@ -207,15 +207,15 @@ int main() {
             // Cleanup
             ifs.close();
             ofs.close();
-            cout << "Done: output.txt written" << endl;
+            cout << "Done: output.txt written" << endl << endl;
         }
         else {
             try {
                 Instruction instr = Instruction(user);
-                cout << instr.disassemble() << endl;
+                cout << instr.disassemble() << endl << endl;
             }
             catch (...) {
-                cout << "Input Error: input is not valid machine code" << endl;
+                cout << "Input Error: input is not valid machine code" << endl << endl;
                 continue;
             }
         }
