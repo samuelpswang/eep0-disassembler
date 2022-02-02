@@ -1,12 +1,11 @@
 # EEP0 Disassembler
 
 [![Run on Repl.it](https://repl.it/badge/github/samuelpswang/eep0-disassembler)](https://repl.it/github/samuelpswang/eep0-disassembler)
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/samuelpswang/eep0-disassembler/releases/)
 
-**^ 1) Click Replit badge. 2) Click RUN button in Replit.**
+**TRY IT: 1) Click Replit badge; 2) Click RUN button in Replit.**
 
 ## Intro
-Disassembler for 16-bit EEP0 CPU ([designed by Professer Clarke at Imperial EEE Department](https://www.imperial.ac.uk/people/t.clarke)) written by a lazy student during lab. Star it if you find it useful!
+Disassembler for 16-bit EEP0 CPU designed by ([Professer Clarke at Imperial EEE Department](https://www.imperial.ac.uk/people/t.clarke)).
 
 ## Command Line Interface
 ### Direct Instructions
