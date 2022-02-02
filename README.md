@@ -34,5 +34,5 @@ Done: output.txt written
 3. Compile & run `./main`.
 
 ## Release
-* `Version: 1.0.2`
+* `Version: 1.0.0`
 * `Date: 2022/02/01`
