@@ -1,6 +1,7 @@
 # EEP0 Disassembler
 
 [![Run on Repl.it](https://repl.it/badge/github/samuelpswang/eep0-disassembler)](https://repl.it/github/samuelpswang/eep0-disassembler)
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/samuelpswang/eep0-disassembler/releases/)
 
 **^ 1) Click Replit badge. 2) Click RUN button in Replit.**
 
